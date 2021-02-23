@@ -70,3 +70,9 @@ variable "poll_time" {
   description = "AWS route tables poll rate"
   default     = 30
 }
+
+variable "nat_cidr" {
+  type        = string
+  description = "NAT CIDR range"
+  default     = ""
+}
